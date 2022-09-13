@@ -1,0 +1,14 @@
+canvas{
+    border: 1px solid black;
+
+    animation-name: ANIMATIC;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ANIMATIC{
+
+    from {box-shadow: 1px 1px 40px blue;}
+    to{box-shadow: 1px 1px 40px rgb(158, 4, 94) ;}
+}
+
